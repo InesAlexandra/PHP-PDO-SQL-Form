@@ -1,0 +1,97 @@
+body {
+    background-color: darkgrey;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: arial, sans-serif;
+}
+
+/*#############################         CLASSES        ##########################################*/
+
+.letter-50px {
+    font-size: 50px;
+}
+
+.form-data {
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5em;
+}
+
+.font-verdana {
+    font-family: arial, sans-serif;
+}
+
+
+
+/*#############################         INPUTS GRID        ##########################################*/
+
+.form {
+    display: grid;
+	grid-template-rows: repeat(11, 2.5em);
+	column-gap: 1em;
+    row-gap: 1em;
+	grid-template-columns: 0.5em repeat(10, 2fr);
+}
+
+#last_name {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#first_name {
+    grid-row: 2;
+	grid-column: 2;
+}
+
+#birthdate {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#street {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#postal_code {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#city {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#name_country {
+    grid-row: 7;
+    grid-column: 2;
+}
+
+#phone {
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#mail {
+    grid-row: 9;
+    grid-column: 2;
+}
+
+#civility {
+    grid-row: 10;
+    grid-column: 2;
+}
+
+#sex {
+    grid-row: 11;
+    grid-column: 2;
+}
+
+#submit {
+    grid-row: 12;
+    grid-column: 2;
+}
